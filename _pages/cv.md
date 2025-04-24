@@ -7,58 +7,45 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+You can download my CV as a [PDF here](/files/cv.pdf)
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+---
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+### Research & Internship Experience
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+**Idaho National Laboratory, DOE – Idaho Falls, ID**  
+**Graduate Intern, National & Homeland Security**  
+*2022 – Present*
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+- Conduct research on **provable security mechanisms** for cyber-physical systems (CPS) using **formal methods** and **interactive theorem provers**.
+- Developed **DATUM**, a protocol stack for **runtime enforcement**, **dynamic attestation**, and **protocol-level safety** in UAV and ICS settings.
+- Applied **Coq** to embed domain-specific protocols ensuring machine-checked safety properties.
+- Demonstrated DATUM in securing the **MAVLink** protocol, detecting stealthy attacks via sequence-level validation.
+- Presented invited talks at **DICE'25** and **HCSS'25**, and published work in **NFM'25** and **ICSS'24**.
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+---
+
+### Education
+
+**University of Central Florida, Orlando, FL**  
+Ph.D. in Computer Science (2023–current)  
+Formal Methods, GPA: 3.91
+
+**Tusculum University, TN**  
+B.S. in Mathematics (minor: Computer Science)  
+Magna Cum Laude, GPA: 3.81
+
+---
+
+### Honors and Grants
+
+• Outstanding Calculus Student Award  
+• 2019 D2 ADA Academic Achievement Award  
+• Grant to attend OPLSS 2023
+
+---
+
+### Skills
+
+- Languages: F*, Haskell
+- Topics: Formal Verification, Programming Languages, Secure Protocols
