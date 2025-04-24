@@ -21,7 +21,7 @@ You can download my CV as a [PDF here](/files/cv.pdf)
 - Developed **DATUM**, a protocol stack for **runtime enforcement**, **dynamic attestation**, and **protocol-level safety** in UAV and ICS settings.
 - Applied **Coq** to embed domain-specific protocols ensuring machine-checked safety properties.
 - Demonstrated DATUM in securing the **MAVLink** protocol, detecting stealthy attacks via sequence-level validation.
-- Presented invited talks at **DICE'25** and **HCSS'25**, and published work in **NFM'25** and **ICSS'24**.
+- Presented invited talks at **DICE'25** and **HCSS'25**, and published work in **ICUAS'25**, **NFM'25** and **ICSS'24**.
 
 ---
 
