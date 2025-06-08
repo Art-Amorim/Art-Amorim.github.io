@@ -8,16 +8,16 @@ redirect_from:
 ---
 
 ![Datum pic](/images/datum.png){: .align-right width="300px"}
-I'm a Ph.D. student in Computer Science at the University of Central Florida, advised by [Dr. Gary T. Leavens](https://www.cs.ucf.edu/~leavens/homepage.html). My research focuses on developing **formal methods** for ensuring the **security and resilience of critical infrastructure systems**, especially in **cyber-physical systems (CPS)** and **unmanned aerial vehicles (UAVs)**.
+I'm a Ph.D. student in Computer Science at the University of Central Florida, advised by [Dr. Gary T. Leavens](https://www.cs.ucf.edu/~leavens/homepage.html), and a Graduate intern at the Idaho National Laboratory (INL) in the National & Homeland Security directorate, I work at the intersection of runtime enforcement and provable security, applying formal methods to harden critical infrastructure against emerging threats. My research lies at the intersection of formal methods, cyber-physical system security, and type theory, with a focus on making safety-critical systems resilient to stealthy and protocol-level attacks.
 
-With a strong foundation in **mathematical logic**, I am passionate about bridging **theory and practice** to address real-world security challenges. I specialize in **software verification**, **programming languages**, and **formal reasoning**, with hands-on experience using tools like **Coq**, **F\***, and **Haskell**.
+My work primarily targets unmanned aerial vehicles (UAVs) and industrial control systems (ICSs). These systems that increasingly rely on complex software stacks and communication protocols, making them attractive targets for sophisticated adversaries. Many existing security mechanisms overlook attacks that appear protocol-compliant yet induce unsafe behavior. My goal is to bridge that gap.
 
-As a research intern at the **Idaho National Laboratory (INL)** in the National & Homeland Security directorate, I work on the intersection of **runtime verification** and **provable security**. My primary research project centers around **DATUM**, a formal protocol stack that integrates **dynamic attestation** and **multiparty session types** to secure vulnerable systems. DATUM underpins several of my recent works:
+To address these challenges, I developed DATUM (Dynamically Assured Typed Universal Messaging), a protocol verification tool that integrates static verification and runtime monitoring using refined multiparty session types. DATUM enforces protocol correctness at runtime while providing formal safety guarantees through static analysis. It supports the MAVLink protocol, widely used in UAV autopilot systems such as ArduPilot and PX4, and enables the validation of legacy systems without requiring significant code rewrites.
 
-- **Securing MAVLink communication in UAVs** by enforcing safe message sequences and preventing stealthy attacks.
-- **Isolating runtime components** with microkernel architectures like **seL4** to prevent system-wide compromise.
-- **Formalizing industrial control system protocols** using an embedded DSL in an interactive theorem prover, ensuring provable guarantees even in adversarial settings.
+My approach draws on concepts such as runtime verification, protocol attestation, and seL4-based software isolation to defend against powerful adversaries—including those who have already compromised parts of the system. By retrofitting these techniques into existing platforms, my work provides practical and deployable security for vulnerable CPS infrastructures.
 
-My research has been published and presented at top-tier venues, including **ICSS'24**, **DICE'25**, **ICUAS'25**, **NFM'25**, and **HCSS'25**.
+With a strong foundation in mathematical logic, I am passionate about bridging theory and practice to solve real-world problems. I specialize in software verification, programming languages, and formal reasoning, with hands-on experience using tools like Coq, F\*, and Haskell.
+
+My research has been published and presented at top-tier venues, including ICSS'24, DICE'25, ICUAS'25, NFM'25, and HCSS'25.
 
 Feel free to explore my [CV](/cv/), [publications](/publications/), and reach out via [email](mailto:arthur.amorim@ucf.edu).
